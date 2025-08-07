@@ -61,6 +61,9 @@ export const About = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Sobre <span className="text-accent">Mim</span>
           </h2>
+          <p className="text-xl text-accent/80 font-medium mb-8">
+            Cientista de Dados | Portfólio de Projetos
+          </p>
           <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground leading-relaxed">
             <p>
               Sou formado em <span className="text-foreground font-semibold">Estatística</span> e atualmente trabalho como 

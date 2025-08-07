@@ -23,14 +23,18 @@ export const Hero = () => {
                 <p className="text-2xl md:text-3xl lg:text-4xl text-muted-foreground font-medium">
                   Cientista de Dados
                 </p>
+                <p className="text-lg md:text-xl text-accent/80 font-medium mt-2">
+                  Portfólio de Data Science
+                </p>
                 <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-32 h-1 bg-gradient-to-r from-primary to-accent rounded-full"></div>
               </div>
             </div>
             
             <div className="space-y-8 max-w-3xl mx-auto">
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-                Demonstro minhas habilidades de resolver problemas de negócio utilizando 
-                conceitos e ferramentas da Ciência de Dados, através de projetos com dados públicos.
+                Explore meus projetos de <span className="text-accent font-semibold">Data Science</span> onde demonstro 
+                habilidades de resolver problemas de negócio utilizando conceitos e ferramentas 
+                da Ciência de Dados, através de projetos com dados públicos.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
