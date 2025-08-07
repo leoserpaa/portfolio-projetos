@@ -82,7 +82,7 @@ export const About = () => {
         {/* Skills Section */}
         <div className="mb-20">
           <h3 className="text-2xl font-bold mb-12 text-center">
-            Habilidades <span className="text-primary">&</span> <span className="text-accent">Ferramentas</span>
+            <span className="text-accent">Habilidades</span>
           </h3>
           <div className="grid md:grid-cols-2 gap-8">
             {skills.map((skill, index) => (

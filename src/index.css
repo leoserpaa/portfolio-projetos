@@ -22,8 +22,8 @@ All colors MUST be HSL.
     --primary: 245 98% 67%;
     --primary-foreground: 0 0% 98%;
 
-    /* Green accent color (#CDFF4E) */
-    --accent: 75 100% 65%;
+    /* Blue accent color (#4E9CFF) */
+    --accent: 215 100% 65%;
     --accent-foreground: 220 15% 8%;
 
     --secondary: 220 15% 15%;
@@ -45,8 +45,8 @@ All colors MUST be HSL.
     --hero-gradient: linear-gradient(135deg, hsl(220 15% 8%) 0%, hsl(220 20% 12%) 100%);
     --card-gradient: linear-gradient(135deg, hsl(220 15% 10%) 0%, hsl(220 20% 14%) 100%);
     --glow-purple: 0 0 40px hsl(245 98% 67% / 0.3);
-    --glow-green: 0 0 30px hsl(75 100% 65% / 0.3);
-    --text-gradient: linear-gradient(135deg, hsl(245 98% 67%) 0%, hsl(75 100% 65%) 100%);
+    --glow-blue: 0 0 30px hsl(215 100% 65% / 0.3);
+    --text-gradient: linear-gradient(135deg, hsl(245 98% 67%) 0%, hsl(215 100% 65%) 100%);
     
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -78,7 +78,7 @@ All colors MUST be HSL.
     --popover-foreground: 0 0% 98%;
     --primary: 245 98% 67%;
     --primary-foreground: 0 0% 98%;
-    --accent: 75 100% 65%;
+    --accent: 215 100% 65%;
     --accent-foreground: 220 15% 8%;
     --secondary: 220 15% 15%;
     --secondary-foreground: 0 0% 98%;
@@ -118,8 +118,8 @@ All colors MUST be HSL.
     box-shadow: var(--glow-purple);
   }
 
-  .glow-green {
-    box-shadow: var(--glow-green);
+  .glow-blue {
+    box-shadow: var(--glow-blue);
   }
 
   .hero-gradient {

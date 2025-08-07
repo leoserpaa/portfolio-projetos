@@ -79,7 +79,7 @@ export default {
 			},
 			boxShadow: {
 				'glow-purple': 'var(--glow-purple)',
-				'glow-green': 'var(--glow-green)',
+				'glow-blue': 'var(--glow-blue)',
 			},
 			transitionTimingFunction: {
 				'smooth': 'cubic-bezier(0.4, 0, 0.2, 1)',
