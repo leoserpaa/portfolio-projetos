@@ -8,48 +8,50 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Dark theme for portfolio */
-    --background: 220 15% 8%;
-    --foreground: 0 0% 98%;
+    /* Ultra dark theme for portfolio */
+    --background: 220 20% 4%;
+    --foreground: 210 40% 98%;
 
-    --card: 220 15% 10%;
-    --card-foreground: 0 0% 98%;
+    --card: 220 25% 6%;
+    --card-foreground: 210 40% 98%;
 
-    --popover: 220 15% 10%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 220 25% 6%;
+    --popover-foreground: 210 40% 98%;
 
-    /* Purple brand color (#6558FE) */
-    --primary: 245 98% 67%;
-    --primary-foreground: 0 0% 98%;
+    /* Electric blue primary */
+    --primary: 215 98% 70%;
+    --primary-foreground: 220 20% 4%;
 
-    /* Blue accent color (#4E9CFF) */
-    --accent: 215 100% 65%;
-    --accent-foreground: 220 15% 8%;
+    /* Cyan accent */
+    --accent: 185 100% 65%;
+    --accent-foreground: 220 20% 4%;
 
-    --secondary: 220 15% 15%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 220 25% 8%;
+    --secondary-foreground: 210 40% 98%;
 
-    --muted: 220 15% 15%;
-    --muted-foreground: 0 0% 65%;
+    --muted: 220 25% 8%;
+    --muted-foreground: 210 15% 70%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive-foreground: 210 40% 98%;
 
-    --border: 220 15% 20%;
-    --input: 220 15% 15%;
-    --ring: 245 98% 67%;
+    --border: 220 25% 12%;
+    --input: 220 25% 8%;
+    --ring: 215 98% 70%;
 
     --radius: 0.75rem;
 
-    /* Portfolio specific tokens */
-    --hero-gradient: linear-gradient(135deg, hsl(220 15% 8%) 0%, hsl(220 20% 12%) 100%);
-    --card-gradient: linear-gradient(135deg, hsl(220 15% 10%) 0%, hsl(220 20% 14%) 100%);
-    --glow-purple: 0 0 40px hsl(245 98% 67% / 0.3);
-    --glow-blue: 0 0 30px hsl(215 100% 65% / 0.3);
-    --text-gradient: linear-gradient(135deg, hsl(245 98% 67%) 0%, hsl(215 100% 65%) 100%);
+    /* Enhanced portfolio tokens with richer gradients */
+    --hero-gradient: radial-gradient(ellipse at center, hsl(220 30% 6%) 0%, hsl(220 25% 3%) 50%, hsl(220 20% 2%) 100%);
+    --card-gradient: linear-gradient(135deg, hsl(220 25% 6%) 0%, hsl(220 30% 8%) 50%, hsl(220 25% 5%) 100%);
+    --accent-gradient: linear-gradient(135deg, hsl(215 98% 70%) 0%, hsl(185 100% 65%) 100%);
+    --glow-primary: 0 0 50px hsl(215 98% 70% / 0.4), 0 0 100px hsl(215 98% 70% / 0.2);
+    --glow-accent: 0 0 40px hsl(185 100% 65% / 0.4), 0 0 80px hsl(185 100% 65% / 0.2);
+    --text-gradient: linear-gradient(135deg, hsl(215 98% 70%) 0%, hsl(185 100% 65%) 100%);
+    --shimmer: linear-gradient(90deg, transparent, hsl(215 98% 70% / 0.1), transparent);
     
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --sidebar-background: 0 0% 98%;
 
@@ -69,26 +71,26 @@ All colors MUST be HSL.
   }
 
   .dark {
-    /* Keep same dark theme for consistency */
-    --background: 220 15% 8%;
-    --foreground: 0 0% 98%;
-    --card: 220 15% 10%;
-    --card-foreground: 0 0% 98%;
-    --popover: 220 15% 10%;
-    --popover-foreground: 0 0% 98%;
-    --primary: 245 98% 67%;
-    --primary-foreground: 0 0% 98%;
-    --accent: 215 100% 65%;
-    --accent-foreground: 220 15% 8%;
-    --secondary: 220 15% 15%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 220 15% 15%;
-    --muted-foreground: 0 0% 65%;
+    /* Enhanced ultra dark theme */
+    --background: 220 20% 4%;
+    --foreground: 210 40% 98%;
+    --card: 220 25% 6%;
+    --card-foreground: 210 40% 98%;
+    --popover: 220 25% 6%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 215 98% 70%;
+    --primary-foreground: 220 20% 4%;
+    --accent: 185 100% 65%;
+    --accent-foreground: 220 20% 4%;
+    --secondary: 220 25% 8%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 220 25% 8%;
+    --muted-foreground: 210 15% 70%;
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 220 15% 20%;
-    --input: 220 15% 15%;
-    --ring: 245 98% 67%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 220 25% 12%;
+    --input: 220 25% 8%;
+    --ring: 215 98% 70%;
   }
 }
 
@@ -114,19 +116,59 @@ All colors MUST be HSL.
     -webkit-text-fill-color: transparent;
   }
 
-  .glow-purple {
-    box-shadow: var(--glow-purple);
+  .accent-gradient {
+    background: var(--accent-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
-  .glow-blue {
-    box-shadow: var(--glow-blue);
+  .glow-primary {
+    box-shadow: var(--glow-primary);
+  }
+
+  .glow-accent {
+    box-shadow: var(--glow-accent);
   }
 
   .hero-gradient {
     background: var(--hero-gradient);
+    position: relative;
   }
 
   .card-gradient {
     background: var(--card-gradient);
+    backdrop-filter: blur(10px);
+    border: 1px solid hsl(var(--border));
+  }
+
+  .shimmer {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .shimmer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: var(--shimmer);
+    animation: shimmer 3s infinite;
+  }
+
+  @keyframes shimmer {
+    0% { left: -100%; }
+    100% { left: 100%; }
+  }
+
+  .floating {
+    animation: floating 6s ease-in-out infinite;
+  }
+
+  @keyframes floating {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
   }
 }

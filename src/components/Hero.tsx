@@ -3,11 +3,12 @@ import { Button } from "@/components/ui/button"
 export const Hero = () => {
   return (
     <section className="min-h-screen hero-gradient flex items-center justify-center px-6 py-12 relative overflow-hidden">
-      {/* Background decorative elements */}
+      {/* Enhanced background decorative elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-1/4 -left-20 w-96 h-96 bg-primary/10 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-1/4 -right-20 w-96 h-96 bg-accent/10 rounded-full blur-3xl"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/4 -left-20 w-96 h-96 bg-primary/20 rounded-full blur-3xl glow-primary floating"></div>
+        <div className="absolute bottom-1/4 -right-20 w-96 h-96 bg-accent/20 rounded-full blur-3xl glow-accent floating" style={{ animationDelay: '2s' }}></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/10 rounded-full blur-3xl"></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-primary/5 via-transparent to-accent/5"></div>
       </div>
       
       <div className="container mx-auto max-w-4xl relative z-10">
@@ -16,7 +17,7 @@ export const Hero = () => {
           <div className="space-y-8">
             <div className="space-y-6">
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-tight">
-                <span className="text-accent font-display block">Leonardo</span>
+                <span className="accent-gradient font-display block shimmer">Leonardo</span>
                 <span className="text-foreground block">Serpa</span>
               </h1>
               <div className="relative">
@@ -26,13 +27,13 @@ export const Hero = () => {
                 <p className="text-lg md:text-xl text-accent/80 font-medium mt-2">
                   Portfólio de Data Science
                 </p>
-                <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-32 h-1 bg-gradient-to-r from-primary to-accent rounded-full"></div>
+                <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-32 h-1 bg-gradient-to-r from-primary to-accent rounded-full glow-primary"></div>
               </div>
             </div>
             
             <div className="space-y-8 max-w-3xl mx-auto">
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-                Explore meus projetos de <span className="text-accent font-semibold">Data Science</span> onde demonstro 
+                Explore meus projetos de <span className="text-primary font-semibold">Data Science</span> onde demonstro 
                 habilidades de resolver problemas de negócio utilizando conceitos e ferramentas 
                 da Ciência de Dados, através de projetos com dados públicos.
               </p>
